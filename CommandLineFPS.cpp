@@ -50,7 +50,6 @@ keypad(stdscr, TRUE);
 nodelay(stdscr, TRUE);   // Non-blocking input (replaces GetAsyncKeyState)
 curs_set(0);             // Hide cursor
 
-```
 // Resize terminal check
 resizeterm(nScreenHeight, nScreenWidth);
 
