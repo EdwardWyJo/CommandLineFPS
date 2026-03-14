@@ -239,6 +239,5 @@ while (true)
 endwin();
 delete[] screen;
 return 0;
-```
 
 }
